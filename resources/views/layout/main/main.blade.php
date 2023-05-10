@@ -8,8 +8,6 @@
   </head>
   <body>
     @section('sidebar')
-        @parent
-        Esse e o menu mestre.
     @show
 
     <div>
