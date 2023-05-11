@@ -11,6 +11,3 @@
     </nav>
 @endsection
 
-@section('Movies')
-    Isso quisso
-@endsection
