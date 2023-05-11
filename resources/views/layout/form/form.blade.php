@@ -1,6 +1,14 @@
 @extends('layout.menu.menu')
 
-@section('title', 'Adicionar Filme')
+@section('content')
+<div class="container align-items-center">
+    <hr class="border border-primary border-3 opacity-75">
+    <h1 class="fs-1">
+        Adicionar Filmes
+    </h1>
+    <hr class="border border-primary border-3 opacity-75">
+</div>
+@endsection
 
 @section('form')
 <form class="row gx-3 gy-3 align-items-center mt-5">
