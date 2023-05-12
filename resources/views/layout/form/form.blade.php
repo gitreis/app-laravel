@@ -11,7 +11,7 @@
 @endsection
 
 @section('form')
-<form class="row gx-3 gy-3 align-items-center mt-5">
+<form class="row gx-3 gy-3 align-items-center mt-5" method="POST" action="{{ route('movie.store') }}">
   <div class="col-sm-3">
     <label class="form-check-label" for="specificSizeInputName mb-5">Filme</label>
     <input type="text" class="form-control" id="specificSizeInputName" placeholder="O Iluminado">
@@ -63,7 +63,7 @@
     </select>
   </div>
   <div class="col-sm-3 align-item-bottom">
-    <button type="submit" class="btn btn-primary">Submeter</button>
+    <button type="submit" class="btn btn-primary" href=" {{ route('MovieController.movieList') }} ">Submeter</button>
   </div>
 </form>
 @endsection
